@@ -1,6 +1,6 @@
 # start-react-django
 
-Python script to automate the creation of web apps with react frontend and django backend.
+Python script to automate the creation of web apps with a Rreact frontend and Django backend.
 
 ## Usage
 
