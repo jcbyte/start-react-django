@@ -40,6 +40,6 @@ To serve the app and start the django API we run:
 python manage.py runserver
 ```
 
-## Authors
+## Licence
 
-- [@jcbyte](https://www.github.com/jcbyte)
+[Apache License 2.0](LICENSE)
