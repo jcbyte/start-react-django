@@ -6,7 +6,7 @@ Python script to automate the creation of web apps with react frontend and djang
 
 `start-react-django [-h] [-env NAME] [-ts] [-cors] name`
 
-The command is available once the start-react-django module has been installed, this can be done through pip:
+The command is available once the start-react-django module has been installed:
 
 ```bash
 pip install git+https://github.com/jcbyte/start-react-django.git
@@ -18,13 +18,13 @@ pip install git+https://github.com/jcbyte/start-react-django.git
 
 **Note:** These commands should be run from within `$PROJNAME$\frontend\`.
 
-Once the project has been created the react web app can be compiled whilst watching for changes using:
+Once the project has been created the React web app can be compiled whilst watching for changes:
 
 ```bash
 npm run dev
 ```
 
-To compile a production build:
+Compile a production build:
 
 ```bash
 npm run build
@@ -34,7 +34,7 @@ npm run build
 
 **Note:** These commands should be run from within `$PROJNAME$\`.
 
-To serve the app and start the django API we run:
+To serve the app and start the Django server:
 
 ```bash
 python manage.py runserver
